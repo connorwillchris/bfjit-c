@@ -1,7 +1,8 @@
-#include <stdio.h>
+#include "bf.h"
 
 int main(int argc, char** argv) {
-    printf("HELLO, WORLD!\n");
+    Bf* bf = bf_new(50);
+    bf_close(bf);
 
     return 0;
 }
