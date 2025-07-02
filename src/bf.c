@@ -2,7 +2,7 @@
 #include "bf.h"
 
 struct Brainfuck {
-    char *tape;
+    char* tape;
     size_t len;
 };
 
